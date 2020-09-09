@@ -20,6 +20,7 @@ class Landing extends React.Component{
                         >
                         <Text style={styles.buttonText}>Start Searching</Text>
                         </Button>
+                        <Text style={styles.copyright}>©DUDI BITON 2020</Text>
                     </View>
                 </ImageBackground>
             </View>
@@ -54,6 +55,12 @@ const styles = {
   
     buttonText: {
       color: 'white'
+    },
+
+    copyright:{
+      position: 'absolute',
+      bottom: 5,
+      fontWeight: 'bold'
     }
   }
 
